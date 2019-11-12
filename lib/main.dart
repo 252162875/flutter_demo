@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_demo/DioTestRoute.dart';
 import 'package:flutter_demo/HttpTestRoute.dart';
 import 'newroute.dart';
 import 'tiproute.dart';
@@ -225,7 +226,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 textColor: Colors.blue,
                 onPressed: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) {
-                    return HttpTestRoute();
+                    return DioTestRoute();
                   }));
                 },
               ),
